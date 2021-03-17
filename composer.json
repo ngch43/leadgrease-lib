@@ -1,0 +1,22 @@
+{
+    "name": "mediaadgo/leadgrase-lib",
+    "description": "Leadgrease library",
+    "type": "library",
+    "require": {
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "ngch43",
+            "email": "neil.chacon@mediaadgo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "LeadgreaseLib\\": "src/LeadgreaseLib/"
+        },
+        "files": [
+          "src/LeadgreaseLib/Client.php"
+        ]
+    }
+}
